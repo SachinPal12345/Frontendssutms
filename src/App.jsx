@@ -56,8 +56,8 @@ function App() {
 
 
         <Route path='/enrollement' element={<PrivateRoute element={<ButtonFun />}/> } />
-        <Route path='/personal' element={user? <PersonalInfo />:<Signin/> } />
-        <Route path='/photo' element={<Photo />} />
+        {/* <Route path='/personal' element={user? <PersonalInfo />:<Signin/> } />
+        <Route path='/photo' element={<Photo />} /> */}
         <Route path='/waiting' element={<Waiting />} />
 
         <Route

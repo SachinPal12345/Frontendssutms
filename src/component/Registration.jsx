@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 import Sidebarr from "./Sidebarr"
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Personal from './PersonalInfo';
+
 import ButtonFun from './ButtonFun';
 
 const theme = createTheme({ // Define a theme with 'fontWeightBold'
