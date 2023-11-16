@@ -14,7 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import posImage from "../assets/logo.jpeg";
 import posImage1 from "../assets/logo2.jpeg";
-// import './Navbar1.css';
+import '../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Router, Link } from "react-router-dom";
 // import Navbar from 'react-bootstrap/Navbar';
@@ -170,9 +170,9 @@ function Navbar() {
             </Toolbar>
           </Container>
         </AppBar>
-        <div className="navbar-container" style={{marginBottom:"20px"}}>
-          <img className="logo" src={posImage1} alt="" />
-        </div>
+        <div className="navbar-container">
+        <img className="logo" src={posImage1} alt='' />
+      </div>
         <Header2/>
       </ThemeProvider>
     </>
